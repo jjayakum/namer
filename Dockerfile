@@ -6,3 +6,4 @@ RUN gem install --no-ri --no-rdoc bundler sinatra faker i18n tilt rack rack-prot
 EXPOSE 9292
 WORKDIR /opt/namer
 CMD ["rackup", "--host", "0.0.0.0"]
+#testing 
